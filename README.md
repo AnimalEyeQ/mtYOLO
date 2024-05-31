@@ -33,14 +33,14 @@ In multi-task learning, a model learns from various related tasks at the same ti
 
 ## Datasets
 * MS-COCO Person Multi-Task
-    * Download images and annotations from https://github.com/ultralytics/ultralytics/pull/5219#issuecomment-1781477032
+    * Download images and annotations from [here](https://github.com/ultralytics/ultralytics/pull/5219#issuecomment-1781477032)
     * We would like to thank Andy [@yermandy](https://github.com/yermandy) for providing this dataset.
 
 * CattleEyeView dataset 
     * Download images from https://github.com/AnimalEyeQ/CattleEyeView
-    * Multi-task annotations can be found in data/CattleEyeView
+    * Multi-task annotations can be found in `./data/CattleEyeView`
 
-* The dataset configuration file can be found in `config/dataset/cattleeyeview_multitask.yaml` or `config/dataset/coco_multitask.yaml`. Instructions to modify the configurations can be found in the file.
+* The dataset configuration file can be found in `./config/dataset/cattleeyeview_multitask.yaml` or `./config/dataset/coco_multitask.yaml`. Instructions to modify the configurations can be found in the file.
 
 ## Code
 * Run the following commands to install mtYOLOv8:
@@ -48,11 +48,11 @@ In multi-task learning, a model learns from various related tasks at the same ti
 
   > pip install -r requirements.txt
 
-* The mtYOLOv8 model configuration file and instructions to create other configuration files (e.g., pose, segment, without ECA) can be found in `config/model/yolov8_multitask_cattleeyeview_ECA.yaml`. 
+* The mtYOLOv8 model configuration file and instructions to create other configuration files (e.g., pose, segment, without ECA) can be found in `./config/model/yolov8_multitask_cattleeyeview_ECA.yaml`. 
 
 * The code and instructions to train, validate or predict can be found in `mtYOLO.ipynb`.
 
-* The trained mtYOLOv8 with ECA models for MS-COCO Person Multi-Task and CattleEyeView can be found in `model_checkpoint`.
+* The trained mtYOLOv8 with ECA models for MS-COCO Person Multi-Task and CattleEyeView can be found in `./model_checkpoint`.
 
 ## Acknowledgments
 We would like to express our gratitude to 
