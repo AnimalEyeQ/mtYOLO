@@ -52,6 +52,8 @@ In multi-task learning, a model learns from various related tasks at the same ti
 
 * The code and instructions to train, validate or predict can be found in `mtYOLO.ipynb`.
 
+* The trained mtYOLOv8 with ECA models for MS-COCO Person Multi-Task and CattleEyeView can be found in `model_checkpoint`.
+
 ## Acknowledgments
 We would like to express our gratitude to 
 * [ultralytics](https://github.com/ultralytics/ultralytics) for the YOLOv8 codes
