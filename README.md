@@ -1,13 +1,13 @@
-# [mtYOLO]([https://github.com/AnimalEyeQ/mtYOLO](https://github.com/AnimalEyeQ/mtYOLO))
+# [mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]]([https://github.com/AnimalEyeQ/mtYOLO](https://github.com/AnimalEyeQ/mtYOLO))
 
-This is the official repository for <br/>**[ [2024 IEEE ICME] mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]()**
+This is the official repository for <br/>**[ [2024 IEEE ICME Application/Industry Paper] mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]()**
 <br/>**Kian Eng ONG, Sivaji RETTA, Ramarajulu SRINIVASAN, Shawn TAN, Jun LIU**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 <br/>*[AnimalEYEQ Private Limited](https://animaleyeq.com/home)*
 
 
 # Paper
-[Coming Soon] [2024 IEEE ICME Official Paper]()
+[Coming Soon] [2024 IEEE International Conference on Multimedia and Expo (ICME) Official Application/Industry Paper]()
 
 ## Citation
 [Coming Soon]
@@ -16,7 +16,7 @@ This is the official repository for <br/>**[ [2024 IEEE ICME] mtYOLO: A multi-ta
 
 @INPROCEEDINGS{mtYOLO,
   author={Ong, Kian Eng and Retta, Sivaji and Srinivasan, Ramarajulu and Tan, Shawn and Liu, Jun},
-  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME) Application/Industry}, 
   title={mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals}, 
   year={2024},
   volume={},
@@ -57,6 +57,6 @@ In multi-task learning, a model learns from various related tasks at the same ti
 ## Acknowledgments
 We would like to express our gratitude to 
 * [ultralytics](https://github.com/ultralytics/ultralytics) for the YOLOv8 codes
-* [@yermandy](https://github.com/yermandy) for making the MS-COCO Person Multi-Task dataset and [multi-task codes](https://github.com/yermandy/ultralytics/tree/multi-task-model) available to the community.
+* [@yermandy](https://github.com/yermandy) for making the [MS-COCO Person Multi-Task dataset](https://github.com/ultralytics/ultralytics/pull/5219#issuecomment-1781477032) and [multi-task codes](https://github.com/yermandy/ultralytics/tree/multi-task-model) available to the community
 * [Efficient Channel Attention by Wang et al. (2020)](https://github.com/BangguWu/ECANet) and [YOLOv8-AM by Chien et al. (2024)](https://github.com/RuiyangJu/Fracture_Detection_Improved_YOLOv8) for the ECA codes
 
