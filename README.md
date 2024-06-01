@@ -1,6 +1,6 @@
-# [mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]]([https://github.com/AnimalEyeQ/mtYOLO](https://github.com/AnimalEyeQ/mtYOLO))
+# [mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]([https://github.com/AnimalEyeQ/mtYOLO](https://github.com/AnimalEyeQ/mtYOLO))
 
-This is the official repository for <br/>**[ [2024 IEEE ICME Application/Industry Paper] mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]()**
+This is the official repository for <br/>**[[2024 IEEE ICME Application/Industry Paper] mtYOLO: A multi-task model to concurrently obtain the vital characteristics of individuals or animals]()**
 <br/>**Kian Eng ONG, Sivaji RETTA, Ramarajulu SRINIVASAN, Shawn TAN, Jun LIU**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 <br/>*[AnimalEYEQ Private Limited](https://animaleyeq.com/home)*
