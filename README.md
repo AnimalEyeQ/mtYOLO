@@ -31,6 +31,9 @@ This is the official repository for <br/>**[[2024 IEEE ICME Application/Industry
 ## Abstract
 In multi-task learning, a model learns from various related tasks at the same time. Such a model is especially useful in various practical applications in the real-world (e.g., autonomous driving, precision livestock farming), as they are able to perform inference of various tasks concurrently. In this work, we present mt-YOLO, a single unified multi-task YOLOv8 model, that is trained end-to-end and is able to simultaneously produce the output of all the vital characteristics (e.g., size, keypoints) of the person or animal. Our experiments show that our multi-task YOLOv8 model takes a shorter time to train and performs better than individual tasks. The learning of various tasks can mutually benefit one another during model training and improve its performance, however the tasks may sometimes conflict one another and result in poorer model performance. Hence, in order to further enhance the feature extraction capability of the multi-task model and allow it to learn better features from various tasks, we incorporated the Efficient Channel Attention (ECA) mechanism as part of our multi-task unified model architecture. The ECA mechanism dynamically assigns larger weights to more important information but smaller weights to less relevant information. Our experiments showed that ECA can improve the model's performance without compromising too much on the compute time. Our codes can be found at https://github.com/AnimalEyeQ/mtYOLO.
 
+## Model Architecture
+![mtYOLO architecture](image/arch.png "mtYOLO architecture")
+
 ## Datasets
 * MS-COCO Person Multi-Task
     * Download images and annotations from [here](https://github.com/ultralytics/ultralytics/pull/5219#issuecomment-1781477032)
